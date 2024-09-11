@@ -17,7 +17,7 @@ resource "azurerm_app_service" "main" {
   app_service_plan_id = azurerm_app_service_plan.main.id
 
   app_settings = {
-    DOCKER_CUSTOM_IMAGE_NAME = "1300b27101be5563d8190c17f5f05e622f12316fcf7de04f1c9afc82caf03bf4"
+    DOCKER_CUSTOM_IMAGE_NAME = ""
   }
 
   # Valfritt: Du kan definiera stigen som din app kommer att ladda
